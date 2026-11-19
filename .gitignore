@@ -1,2 +1,10 @@
+# Ignore everything at the top level...
+/*
+
+# ...except these
+!/.gitignore
+!/README.md
+!/Figure_code/
+
+# Never track local tool settings
 .claude/
-.git/
